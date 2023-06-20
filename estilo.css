@@ -1,0 +1,520 @@
+head{ 
+    color: #2B413A;
+}
+
+h1{
+    text-align: center;
+    color:#f0ebd8;
+    font-size: 80px;   
+    margin-top:60px;
+    margin-bottom: -30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 150%;
+    margin: 35px;
+    color: rgb(198, 37, 37);
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255)
+    
+}
+
+h4{
+    font-size: 19px;
+    margin: 170px;
+    letter-spacing: 1px;
+    text-align: justify;
+    display: inline-block;
+    margin-right: 5px;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-top:0px; 
+    color: rgb(255, 255, 255)
+}
+h5{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    margin-top:100px;
+    letter-spacing: 1px;
+    margin: 100px;
+    line-height: 27px;  
+}
+
+h6{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    margin-top:100px;
+    letter-spacing: 1px;
+    margin: 100px;
+    line-height: 27px;  
+}
+
+.contenedor-{
+    flex: 30%;
+    width: 350px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+   
+body{
+    background-color: #2B413A;
+    height: 100vh;
+}
+
+nav{
+    background-color:#2B413A;
+    margin: 10px;
+  }
+
+nav a{
+    color: #2B413A;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 70px;
+  }
+img {
+    display:block;
+    margin-left: 10px; 
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  
+.barra a {
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+}
+
+.barra {
+    height: 50px;
+    background-color:#f0ebd8;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+nav{
+    margin: -15px;
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin: 20px;
+}
+
+.contenedor{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+
+.foto{ 
+    width: 350px;
+    height: 350px;
+    margin-bottom: -30px;
+}
+
+.contenedor_1{
+    display: flex;
+}
+
+.footer{
+    background-color: #f0ebd8;
+    text-align: center;
+    width: 1000%;
+    height: 40px;
+    padding-top: 20px;
+    
+}
+
+.hijos3{
+    flex-wrap: wrap
+}
+
+.horarios{
+    padding: 14px; ;
+}
+
+.foto_1{
+    margin-left: 10px; 
+    max-width: 10%;
+    text-align:center;
+}
+
+.barra_2{
+    position:relative;
+    background-color: #f0ebd8;
+}
+
+.barra_2 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Contenedor_2{
+    float:left;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.ENTRADAS{
+    text-align: left;
+    width: 90%;
+    margin: 50px;
+    padding: 10px;  
+    color: rgb(198, 37, 37);
+    font-size: 30px; 
+}
+
+.paso1{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px; 
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    
+}
+
+.PABLO{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px;  
+    color: rgb(198, 37, 37);
+    font-size: 30px; 
+}
+
+.paso2{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px; 
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.PASTAS{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px; 
+    color: rgb(198, 37, 37);
+    font-size: 30px; 
+}
+
+.paso3{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px; 
+    color: rgb(255, 255, 255);   
+    font-size: 18px;
+}
+
+.SALSAS{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px;  
+    color: rgb(198, 37, 37);
+    font-size: 30px; 
+}
+
+.paso4{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px; 
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.POSTRES{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px; 
+    color: rgb(198, 37, 37);
+    font-size: 30px; 
+}
+
+.paso5{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px; 
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.BEBIDAS{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px;  
+    color: rgb(198, 37, 37);
+    font-size: 30px; 
+}
+
+.paso6{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px; 
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.p{
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    padding: 10px; 
+    color: rgb(255, 255, 255);
+    font-size: 18px; 
+}
+
+.contenedor_menu{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+
+.izquierda{
+    padding: 10px;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.derecha{
+    padding: 10px;
+    padding-top:40px ;
+    color: #fff;
+}
+
+.titulo_menu{
+    font-size: 30px;
+    color: rgb(198, 37, 37);
+    padding-bottom: 50px;
+}
+
+.contendeor_productos{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+
+.details{
+    color: #fff;
+}
+
+.titulo{
+    color: #f0ebd8;
+    font-size: 30px;
+
+}
+
+#contacto {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #contacto .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+  }
+  
+  #contacto .izquierda, #contacto .derecha{
+    
+    padding: 77px 29px;
+  }
+  
+  #contacto .izquierda{
+    margin-right: 40px;
+  }
+  
+  #contacto ul{
+    border-bottom: 2px solid #a5a2a2;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  
+  #contacto h2{
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 100;
+  }
+ 
+  #contacto a{
+    color: #fff;
+    font-weight: 700;
+    padding: 20px;
+    background: #a5a2a2;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-top: 20px;
+    
+  }
+  
+  #contacto .derecha {
+    padding: 99px 0px;
+    width: 40%;
+  }
+  
+  .boton1 {
+    font-size: 18px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-align: center;
+     
+  }
+
+  ul#tercero {
+    border-bottom: 0px;
+  }
+  
+  #contacto ul li {
+    list-style: none;
+    font-size: 15px;
+    
+  }
+  
+  #contacto h2 {
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 100;
+ 
+  }
+  
+  #contacto ul li:nth-child(1) {
+    font-weight: bold;
+  }
+  
+  #contacto a {
+    color: #fff;
+    font-weight: 700;
+    padding: 15px;
+    background: #a5a2a2;
+    letter-spacing: 4px;
+    display: inline-block; 
+   
+  }
+  .reservas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    padding-top: 60px;
+    
+  }
+  
+  .reserv {
+     margin: 20px;
+      width: 100%;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+  }
+  
+  .reserv .title{
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .reserv form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+    width: 98%;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+  }
+  
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .contenedor_nosotros{
+    display:flex;
+    justify-content: center;
+   }
+
+   .img{
+  position: absolute;
+  top: 0%;
+  left: 0;
+  transition: transform 0.5;
+   }
+
+   .contenedor_almacen{
+  display:flex;
+  justify-content: center;
+  height: auto;
+  max-width: 100%;
+  max-height: 200px;
+   } 
